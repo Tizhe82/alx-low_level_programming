@@ -1,20 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - main function block
+ * Return: 0 to terminate program
  */
+
 int main(void)
 {
-	char low;
+	char small = 'a';
+	char capital = 'A';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
-		putchar('\n');
+	/*print characters from a-z*/
+	while (small <= 'z')
+	{
+		putchar(small);
+		small++;
+	}
+
+	/*print characters from A-Z*/
+	while (capital <= 'Z')
+	{
+		putchar(capital);
+		capital++;
+	}
+
+	putchar('\n');
 
 	return (0);
 }
