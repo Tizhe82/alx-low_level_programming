@@ -9,7 +9,6 @@ ALX's curriculum for low-level programming. These projects are meant to help us 
 
 ### [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)
 
-### [0x02. C - Functions, nested loops](./0x02-functions_nested_loops)
 
 
 ---
