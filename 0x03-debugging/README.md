@@ -1,1 +1,1 @@
-0x03. C - Debugging
+This Directory just has to do with Debugging projects in C programming language.
